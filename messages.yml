@@ -1,0 +1,71 @@
+SR_LINE: '&7&m----------------------------------------'
+PLAYER_HAS_NO_PERMISSION: '&e[&2Скин&e] &4Ошибка&8: &cУ вас нет прав.'
+HELP_PLAYER: |2-
+    &2&lSkinsRestorer &7- &f&lv%ver%
+     &2/skin set <Ник> &7-&f Установить скин.
+      &2/skin <Ник> &7-&f Короткая версия команды "/skin set".
+      &2/skin clear &7-&f Удалит Ваш скин.
+HELP_SR: '    &2/sr &7- &fКоманды админа.'
+NOT_PREMIUM: '&e[&2Скин&e] &4Ошибка&8: &cНе найден такой скин'
+SKIN_COOLDOWN_NEW: '&e[&2Скин&e] &4Ошибка&8: &cВы можете изменить скин через &e%s
+  &cсекунд.'
+SKIN_CHANGE_SUCCESS: '&e[&2Скин&e] &2Ваш скин установлен.'
+SKIN_CLEAR_SUCCESS: '&e[&2Скин&e] &2Ваш скин удален.'
+HELP_ADMIN: |2-
+    &2&lSkinsRestorer &7- &f&lv%ver% &c&lАдминистрация
+
+     &2/sr config &7- &fсправочная страница, полезная в настройках конфигурации игры
+      &2/sr set <Ник> <Ник_скина> &7- &fИзменяет скин игрока.
+      &2/sr drop <Ник> &7- &fСбрасывает данные о скинах игроков.
+      &2/sr reload &7- &fПерезагружает конфигурацию и локаль
+      &2/sr props [Ник] &7- &fОтображает действительный скин игроков
+ADMIN_SET_SKIN: '&e[&2Скин&e] &2Вы установили скин игроку %player'
+NOT_ONLINE: '&e[&2Скин&e] &4Ошибка&8: &cИгрок не в сети!'
+SKIN_DATA_DROPPED: '&e[&2Скин&e] &2Сброс данных скина игрока %player'
+RELOAD: '&e[&2Скин&e] &2Конфигурация и локаль перезагружены!'
+HELP_CONFIG: |2-
+    &2&lSkinsRestorer &7- &c&lКонфигурация
+
+     &2/sr joinSkins <true или false> &7- &fПереключает скины при соединении.
+      &2/sr SkinWithoutPerm <true или false> &7- &fНастраивает раздел DisabledSkins.
+      &2/sr SkinExpiresAfter <время> &7- &fКак долго скин кэшируется.
+      &2/sr skinCooldown <время> &7- &f/skin ожидание в минутах.
+      &2/sr defaultSkins <true или false или add [Ник_скина]> &7- &fНастраивает раздел Скины по умолчанию.
+      &2/sr updater <true или false> &7- &fПереключает обновление
+SKIN_DISABLED: '&e[&2Скин&e] &4Ошибка&8: &cЭтот скин отключен администратором.'
+ALT_API_FAILED: '&e[&2Скин&e] &4Ошибка&8: &cAPI данных кожи перегружен, пожалуйста
+  Попробуйте позже!'
+NO_SKIN_DATA: '&e[&2Скин&e] &4Ошибка&8: &cДанные о скине не получены! У этого игрока
+  есть скин?'
+STATUS_OK: '&e[&2Скин&e] &2Успешное соединение API Mojang!'
+GENERIC_ERROR: '&e[&2Скин&e] &4Ошибка&8: &cПри запросе данных о кодах возникла ошибка,
+  повторите попытку позже!'
+WAIT_A_MINUTE: '&e[&2Скин&e] &4Ошибка&8: &cПодождите минуту, прежде чем снова обратиться
+  к этому скину. (Ограничение)'
+NOT_PLAYER: '&e[&2Скин&e] &4Ошибка&8: &cВы должны быть игроком!'
+OUTDATED: "&e[&2Скин&e] &4Вы используете устаревшую версию SkinsRestorer!\n&cОбнов\
+  ите до последней версии на Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+MENU_OPEN: '&2Открытие меню скинов...'
+PLAYERS_ONLY: '&4Эти команды предназначены только для игроков!'
+NEXT_PAGE: '&a&l»&7 Следующая Страница&a&l »'
+PREVIOUS_PAGE: '&e&l»&7 Предыдущая страница&e&l «'
+REMOVE_SKIN: '&c&l»&7 Удалить скин&c&l »'
+SELECT_SKIN: '&2Нажмите, чтобы выбрать этот скин'
+SKIN_CLEAR_ISSUER: '&e[&2SkinsRestorer&e] &2Скин очищен для игрока %player.'
+INVALID_PLAYER: '&e[&2SkinsRestorer&e] &4Ошибка&8: &c%player не является действительным именем пользователя.'
+HELP_SKIN_CLEAR: Ваш скин очищен.
+HELP_SKIN_CLEAR_OTHER: Очищает скин другого игрока.
+HELP_SKIN_UPDATE: Обновляет ваш скин.
+HELP_SKIN_UPDATE_OTHER: Обновляет скин другого игрока.
+HELP_SKIN_SET: Устанавливает ваш скин.
+HELP_SKIN_SET_OTHER: Устанавливает скин другого игрока.
+HELP_SR_RELOAD: Перезагрузка файла конфигурации.
+HELP_SR_STATUS: Проверяет необходимые API-сервисы для работы этого плагина.
+HELP_SR_DROP: Удаляет данные скинов игроков.
+HELP_SR_PROPS: Отображает фактический скин игроков в качестве свойств.
+PLAYER_HAS_NO_PERMISSION_SKIN: '&e[&2SkinsRestorer&e] &4Ошибка&8: &cУ вас нет
+  разрешения установить этот скин.'
+SUCCESS_UPDATING_SKIN: '&e[&2SkinsRestorer&e] &2Ваш скин обновлен.'
+SUCCESS_UPDATING_SKIN_OTHER: '&e[&2SkinsRestorer&e] &2Скин обновлен для игрока %player.'
+ERROR_UPDATING_SKIN: '&e[&2SkinsRestorer&e] &4Ошибка&8: &cПроизошла ошибка при обновлении
+  вашего скина. Пожалуйста, попробуйте позже!'
