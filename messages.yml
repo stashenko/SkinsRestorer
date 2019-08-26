@@ -49,3 +49,11 @@ NO_SKIN_DATA: '&e[&2SkinsRestorer&e] &4Ошибка&8: &cДанные о ски�
 RELOAD: '&e[&2SkinsRestorer&e] &2Config и Locale перезагружены!'
 OUTDATED: "&e[&2SkinsRestorer&e] &4Вы используете устаревшую версию SkinsRestorer!\n&cОбнов\
   ите до последней версии на Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+PLAYER_HAS_NO_PERMISSION_URL: '&e[&2SkinsRestorer&e] &4Error&8: &cУ вас нет
+  разрешение устанавливать скины по URL.'
+MS_UPDATING_SKIN: '&e[&2SkinsRestorer&e] &2Загрузка скина, пожалуйста, подождите ...'
+ERROR_MS_FULL: '&e[&2SkinsRestorer&e] &4MS Ошибка&8: &cИстекло время ожидания API при загрузке
+  скина. Пожалуйста, попробуйте позже. (MineSkin)'
+ERROR_MS_GENERIC: '&e[&2SkinsRestorer&e] &4MS Ошибка&8: &c%error%'
+MS_API_FAILED: '&e[&2SkinsRestorer&e] &4Ошибка&8: &cAPI-интерфейс MineSkin перегружен, пожалуйста
+  Попробуйте позже!'
